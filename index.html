@@ -1,3 +1,192 @@
-<p>Hello 大家好</p>
-<p>我是xt520，这是我的个人网站。 </p>
-<p>很高兴你来到这里, 你可以在以下的网站找到我</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+
+    <link rel="stylesheet" type="text/css" href="staic/css/btl.css">
+    <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/c/font_4571622_5rs1sfu3feh.css">
+    <link rel="stylesheet" type="text/css" href="staic/css/mainf.css">
+    <link rel="stylesheet" type="text/css" href="staic/css/main.css">
+    <link rel="stylesheet" type="text/css" href="staic/css/logo.css">
+    <link rel="stylesheet" type="text/css" href="staic/css/xk.css">
+
+
+    <style>
+
+
+        body {
+            position: relative;
+            /*background-color: #1B1D1F;*/
+        }
+
+        .icon-RectangleCopy2, .icon-RectangleCopy3 {
+            color: white;
+            font-size: 50px;
+            align-content: center;
+            line-height: 93px;
+            float: right;
+            margin-right: 10px;
+            z-index: 10;
+        }
+
+        .icon-RectangleCopy {
+
+
+            font-size: 20px;
+        }
+
+        .icon-RectangleCopy1 {
+
+            font-size: 20px;
+        }
+
+
+        #SSS {
+
+
+            display: none;
+
+        }
+    </style>
+
+</head>
+<body>
+<!--星空-->
+
+<canvas style="" id="canvas"></canvas> <!-- 创建一个画布元素 -->
+
+
+<!--导航栏-->
+<div id="btl">
+    <div class="dh">
+        <img src="staic/img/矢量卡通手绘线条星星_爱给网_aigei_com.png" id="dhimg" alt="">
+    </div>
+    <span class="ysz">星的启示</span>
+    <ul>
+        <li><i class="iconfont icon-RectangleCopy"><a href="./index.html" style="color: white;text-decoration: none">首页</a></i></li>
+        <li><i class="iconfont icon-RectangleCopy1"><a>介绍</a></i></li>
+    </ul>
+
+    <i class="iconfont icon-RectangleCopy2" id="ss"></i>
+   <input type="text" name="#" id="SSS">
+    <i class="iconfont icon-RectangleCopy3" ONCLICK="dj(this)"></i>
+</div>
+
+
+<div id="logo2">
+
+    <img src="./staic/img/37a299d7f61948309322f62b0c658faf.png" alt="" id="logo">
+</div>
+
+
+<!--主内容-->
+
+<div id="mainf">
+
+
+    <div class="guang" onclick="f(this,0)">
+        <div class="kaipianlei">
+
+            <img src="staic/img/四元素/74054148_p0.jpg" class="imgtp2" alt="">
+            <p class="zt">風象星座</p>
+            <p class="z">智慧的化身，勇气的赞歌</p>
+        </div>
+    </div>
+    <div class="guang" onclick="f(this,1)">
+        <div class="kaipianlei">
+
+            <img src="staic/img/四元素/6110df98b2e6373366825ff8c3434d9f9cfa5c2c.jpg" class="imgtp2" alt="">
+            <p class="zt">土象星座</p>
+            <p class="z">秩序的化身，文明之主</p>
+        </div>
+    </div>
+    <div class="guang" onclick="f(this,2)">
+        <div class="kaipianlei">
+
+            <img src="staic/img/四元素/94706415_p0.jpg" class="imgtp2" alt="">
+            <p class="zt">水象星座</p>
+            <p class="z">情感之海，保守的化身</p>
+        </div>
+    </div>
+    <div class="guang" onclick="f(this,3)">
+        <div class="kaipianlei">
+
+            <img src="staic/img/四元素/110562013_p1.jpg" class="imgtp2" alt="">
+            <p class="zt">火象星座</p>
+            <p class="z">开拓者，能源的化身</p>
+        </div>
+    </div>
+
+
+</div>
+
+<!--展示栏-->
+
+<div class="zsl_z">
+
+    <div class="kapian">
+        <!--            天平座-->
+        <img src="staic/img/十二星座塔罗牌线条线稿 (38)_爱给网_aigei_com.png" class="imgkp" alt="">
+
+
+    </div>
+    <div class="kapian">
+
+        <img src="staic/img/双子.png" class="imgkp" alt="">
+
+
+    </div>
+
+
+    <div class="kapian">
+        <img src="staic/img/十二星座塔罗牌线条线稿 (43)_爱给网_aigei_com.png" class="imgkp" alt="">
+
+    </div>
+
+    <div class="kapian">
+        <img src="staic/img/十二星座塔罗牌线条线稿 (40)_爱给网_aigei_com.png" class="imgkp" alt="">
+
+    </div>
+    <div class="kapian">
+        <img src="staic/img/十二星座塔罗牌线条线稿 (34)_爱给网_aigei_com.png" class="imgkp" alt="">
+
+    </div>
+    <div class="kapian">
+        <img src="staic/img/十二星座塔罗牌线条线稿 (37)_爱给网_aigei_com.png" class="imgkp" alt="">
+
+    </div>
+    <div class="kapian">
+        <img src="staic/img/十二星座塔罗牌线条线稿 (39)_爱给网_aigei_com.png" class="imgkp" alt="">
+
+    </div>
+
+</div>
+
+
+<div class="zsl_y">
+
+
+</div>
+
+<!--底部栏-->
+
+<div></div>
+
+<!--JS引入-->
+<script src="./staic/live2d-widget-0.9.0/autoload.js"></script>
+<script src="staic/js/ss.js"></script>
+<script src="staic/js/xuanfu.js"></script>
+<script src="staic/js/xk.js"></script>
+<script src="staic/js/xs.js">
+</script>
+<script>
+    window.onload = () => {
+        document.getElementById("waifu").style.left = "800";
+        document.getElementById("waifu").style.zIndex = "1000";
+    }
+
+
+</script>
+</body>
+</html>
